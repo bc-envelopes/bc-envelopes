@@ -1,0 +1,15 @@
+---
+output: rmarkdown::github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Towards best practices in bioclimatic envelope modelling: evaluating the choice of predictors, modelling techniques, and number of pseudo-absences
+
+---
+
+#### Abstract  
+
+Bioclimatic envelope models are commonly used to quantify the influence of future climate change on species’ distributions and biodiversity patterns. Improving our understanding of the accuracy and robustness of these models is critical for outlining best practices. Here we systematically evaluate the performance of bioclimatic envelope models in relation to the selection of predictors, modelling technique and pseudo-absences. We considered (i) four predictor sets consisting out of 2, 4, 10 or 19 bioclimatic variables, (ii) seven commonly used modelling techniques and an ensemble model, and (iii) three sets of pseudo-absences (1 000, 10 000 and the same as the number of presences). For each combination of predictor set, modelling technique and pseudo-absence set, we fitted bioclimatic envelope models for 300 species of mammals, amphibians and freshwater fish, and evaluated the predictive performance of the models using the True Skill Statistic (TSS), based on a spatially independent test set as well as cross-validation. On average across the species, model performance was mostly influenced by the choice of predictor set, followed by the choice of modelling technique. The number of the pseudo-absences did not have a strong effect on the model performance. Based on spatially independent testing, an ensemble model with 10 or 19 predictors revealed the highest predictive performance. In contrast, the random forest technique yielded the highest model performance in the cross-validation, thus highlighting the need for spatially independent model evaluation. We recommend building bioclimatic envelope models according to an ensemble modelling approach based on a non-redundant set of bioclimatic predictors.
