@@ -6,7 +6,7 @@
 #### | What it does: Integrated script that creates species data, calculates hypervolume, and runs models
 #### | Date created: March 04, 2019.
 #### | Creator: -----
-#### | Contact: ------
+#### | Contact: -----
 ##########################################
 
 
